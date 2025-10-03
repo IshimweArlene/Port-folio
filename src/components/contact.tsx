@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import { Mail, Github, Linkedin, Twitter } from "lucide-react";
 
 const Contact = () => {
@@ -15,26 +15,26 @@ const Contact = () => {
         <div className="bg-gradient-card rounded-2xl p-8 md:p-12 shadow-card border border-border">
           <div className="text-center mb-8">
             <a
-              href="mailto:alex.johnson@example.com"
+              href="mailto:ishimwearlene74@gmail.com"
               className="inline-flex items-center gap-3 text-2xl md:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-primary hover:opacity-80 transition-opacity"
             >
               <Mail className="w-8 h-8 text-primary" />
-              alex.johnson@example.com
+              ishimwearlene74@gmail.com
             </a>
           </div>
 
           <div className="flex justify-center gap-4 mb-8">
-            <Button variant="outline" size="icon" asChild className="hover:border-primary hover:shadow-glow transition-all">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" size="icon" asChild>
+              <a href="https://github.com/IshimweArlene" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5" />
               </a>
             </Button>
-            <Button variant="outline" size="icon" asChild className="hover:border-primary hover:shadow-glow transition-all">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" size="icon" asChild>
+              <a href="https://linkedin.com/in/ishimwe-arlene-401028342/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
               </a>
             </Button>
-            <Button variant="outline" size="icon" asChild className="hover:border-primary hover:shadow-glow transition-all">
+            <Button variant="outline" size="icon" asChild>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                 <Twitter className="w-5 h-5" />
               </a>
@@ -42,14 +42,14 @@ const Contact = () => {
           </div>
 
           <div className="text-center">
-            <Button variant="hero" size="lg" asChild>
-              <a href="mailto:alex.johnson@example.com">Send Me a Message</a>
+            <Button variant="default" size="lg" asChild>
+              <a href="mailto:ishimwearlene74@gmail.com">Send Me a Message</a>
             </Button>
           </div>
         </div>
 
         <footer className="text-center mt-12 text-sm text-muted-foreground">
-          <p>© 2025 Alex Johnson. Built with React & Tailwind CSS</p>
+          <p>© 2025 Ishimwe Arlene. Built with React & Tailwind CSS</p>
         </footer>
       </div>
     </section>
